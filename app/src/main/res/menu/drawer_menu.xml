@@ -26,9 +26,9 @@
             android:icon="@drawable/ic_baseline_contact_support_24"
             android:title="Contact Us" />
         <item
-            android:id="@+id/menu_rateus"
+            android:id="@+id/menu_upgrade"
             android:icon="@drawable/ic_baseline_star_half_24"
-            android:title="Rate Us" />
+            android:title="Upgrade" />
         <item
             android:id="@+id/menu_logout"
             android:icon="@drawable/ic_baseline_meeting_room_24"
