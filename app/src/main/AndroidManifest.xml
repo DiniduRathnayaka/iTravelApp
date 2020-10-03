@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.profile_upgrade.Update_popup"></activity>
+        <activity android:name="com.example.profile_upgrade.Update_popup" />
         <activity android:name="com.example.profile_upgrade.Payment_editable_recipt" />
         <activity android:name="com.example.Feedback.MyFeedbacks" />
         <activity android:name="com.example.Feedback.UpdateFeedback" />
@@ -24,17 +24,17 @@
         <activity android:name="com.example.profile_upgrade.Viewpaymentlogs" />
         <activity android:name=".RestaurentOffers.AddOffers" />
         <activity android:name=".RestaurentOffers.DeleteOffers" />
+        <activity android:name="com.example.Home.dashboard" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".RestaurentOffers.UpdateOffers" />
+        <activity android:name=".RestaurentOffers.Hotels" />
         <activity
-            android:name="com.example.Home.dashboard"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name="com.example.profile_upgrade.Intro_Page"
+            android:theme="@style/IntroTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RestaurentOffers.UpdateOffers" />
-        <activity android:name=".RestaurentOffers.Hotels" />
     </application>
 
 </manifest>
