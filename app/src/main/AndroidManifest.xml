@@ -28,8 +28,7 @@
         <activity android:name=".RestaurentOffers.UpdateOffers" />
         <activity android:name=".RestaurentOffers.Hotels" />
         <activity
-            android:name="com.example.profile_upgrade.Intro_Page"
-            android:theme="@style/IntroTheme">
+            android:name="com.example.profile_upgrade.Intro_Page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER" />

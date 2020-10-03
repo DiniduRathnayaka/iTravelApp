@@ -17,14 +17,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         layout="@layout/content_main"/>
-    <com.google.android.material.navigation.NavigationView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/navigation_view"
-        app:menu="@menu/drawer_menu"
-        app:headerLayout="@layout/drawer_header"
-        android:layout_gravity ="start"
-        android:fitsSystemWindows="true"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -132,5 +124,13 @@
             app:srcCompat="@drawable/ic_baseline_account_circle_24"
             tools:ignore="MissingConstraints,VectorDrawableCompat" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation_view"
+        app:menu="@menu/drawer_menu"
+        app:headerLayout="@layout/drawer_header"
+        android:layout_gravity ="start"
+        android:fitsSystemWindows="true"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
