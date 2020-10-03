@@ -1,2 +1,1 @@
-# iTravelApp
-MAD Project
+# iTravel
