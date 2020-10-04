@@ -1,5 +1,6 @@
 package com.example.itravel;
 
+<<<<<<< Updated upstream
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -7,6 +8,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.ContextWrapper;
+=======
+>>>>>>> Stashed changes
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -17,6 +20,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+<<<<<<< Updated upstream
+=======
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+>>>>>>> Stashed changes
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
@@ -30,8 +41,13 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Hotels extends AppCompatActivity {
+<<<<<<< Updated upstream
     private FirebaseRecyclerOptions<Offer> options;
     private FirebaseRecyclerAdapter<Offer,MyViewHolder> adapter;
+=======
+    private FirebaseRecyclerOptions< Offer > options;
+    private FirebaseRecyclerAdapter< Offer, MyViewHolder > adapter;
+>>>>>>> Stashed changes
 
     private RecyclerView recyclerView;
     DatabaseReference reff;
@@ -49,7 +65,11 @@ public class Hotels extends AppCompatActivity {
 
         reff = FirebaseDatabase.getInstance().getReference().child("ADDOffer");
 
+<<<<<<< Updated upstream
         options=new FirebaseRecyclerOptions.Builder<Offer>().setQuery(FirebaseDatabase.getInstance().getReference().child("ADDOffer"),Offer.class).build();
+=======
+        options=new FirebaseRecyclerOptions.Builder< Offer >().setQuery(FirebaseDatabase.getInstance().getReference().child("ADDOffer"), Offer.class).build();
+>>>>>>> Stashed changes
         adapter=new FirebaseRecyclerAdapter< Offer, MyViewHolder >(options) {
             @Override
             protected void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i, @NonNull final Offer offer) {
@@ -92,7 +112,11 @@ public class Hotels extends AppCompatActivity {
                         bundle.putString("key",postkey);
 
 
+<<<<<<< Updated upstream
                         Intent  intent =new Intent(Hotels.this,Update.class);
+=======
+                        Intent  intent =new Intent(Hotels.this, Update.class);
+>>>>>>> Stashed changes
                         intent.putExtras(bundle);
 
                         startActivity(intent);

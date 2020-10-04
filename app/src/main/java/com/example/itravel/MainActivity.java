@@ -1,8 +1,11 @@
 package com.example.itravel;
+<<<<<<< Updated upstream
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
+=======
+>>>>>>> Stashed changes
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -16,6 +19,29 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+<<<<<<< Updated upstream
+import com.basgeekball.awesomevalidation.AwesomeValidation;
+import com.basgeekball.awesomevalidation.ValidationStyle;
+import com.basgeekball.awesomevalidation.utility.RegexTemplate;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+public class MainActivity extends AppCompatActivity {
+    private Spinner mOffer_categories_spinner;
+    private EditText mRest_editTxt;
+    private EditText   mOffer_editTxt;
+    private EditText  mDescri_editTxt;
+
+    ImageView img_added;
+    Button btn_add_attachment;
+
+=======
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.basgeekball.awesomevalidation.AwesomeValidation;
 import com.basgeekball.awesomevalidation.ValidationStyle;
@@ -35,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView img_added;
     Button btn_add_attachment;
 
+>>>>>>> Stashed changes
     AwesomeValidation awesomeValidation;
 
 
@@ -63,11 +90,16 @@ public class MainActivity extends AppCompatActivity {
                 base64_encode_image=null;
                 Intent i = new Intent(
                         Intent.ACTION_PICK,
+<<<<<<< Updated upstream
                         android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+=======
+                        MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+>>>>>>> Stashed changes
                 startActivityForResult(i, RESULT_LOAD_IMAGE);
             }
         });
 
+<<<<<<< Updated upstream
 
 
 
@@ -93,6 +125,33 @@ public class MainActivity extends AppCompatActivity {
 
         awesomeValidation.addValidation(this,R.id.desTextadd,
                 RegexTemplate.NOT_EMPTY,R.string.invalid_dis);
+=======
+
+
+
+
+
+        mOffer_categories_spinner=(Spinner) findViewById(R.id.offer_categories_spinner);
+        mRest_editTxt=(EditText)findViewById(R.id.nameTxtadd);
+        mOffer_editTxt=(EditText)findViewById(R.id.nameofTxtadd);
+        mDescri_editTxt=(EditText)findViewById(R.id.desTextadd);
+
+        //Initialize validation style
+
+        awesomeValidation =new AwesomeValidation(ValidationStyle.BASIC);
+
+        //Add Validation For Name
+
+        awesomeValidation.addValidation(this, R.id.nameTxtadd,
+                RegexTemplate.NOT_EMPTY, R.string.invalid_name);
+
+
+        awesomeValidation.addValidation(this, R.id.nameofTxtadd,
+                RegexTemplate.NOT_EMPTY, R.string.invalid_offer);
+
+        awesomeValidation.addValidation(this, R.id.desTextadd,
+                RegexTemplate.NOT_EMPTY, R.string.invalid_dis);
+>>>>>>> Stashed changes
 
 
 

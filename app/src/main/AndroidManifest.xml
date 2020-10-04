@@ -14,16 +14,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< Updated upstream
         <activity android:name=".Firstuser"></activity>
         <activity android:name=".Update" />
         <activity android:name=".Hotels" />
         <activity android:name=".MainActivity">
+=======
+        <activity android:name="com.example.profile_upgrade.Update_popup" />
+        <activity android:name="com.example.profile_upgrade.Payment_editable_recipt" />
+        <activity android:name="com.example.Feedback.MyFeedbacks" />
+        <activity android:name="com.example.Feedback.UpdateFeedback" />
+        <activity android:name="com.example.Feedback.DeleteFeedback" />
+        <activity android:name="com.example.Feedback.AddFeedback" />
+        <activity android:name="com.example.profile_upgrade.PaymentDetailsUpdate" />
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main" />
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_pre" />
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_pre_pay_details" />
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_pre_pay_method" />
+        <activity android:name="com.example.profile_upgrade.profile_upgrade_main_success" />
+        <activity android:name="com.example.profile_upgrade.Viewpaymentlogs" />
+        <activity android:name="com.example.Home.dashboard" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.profile_upgrade.Intro_Page">
+>>>>>>> Stashed changes
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Firstuser"></activity>
+        <activity android:name=".Update" />
+        <activity android:name=".Hotels" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

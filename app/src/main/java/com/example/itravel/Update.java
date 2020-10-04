@@ -1,7 +1,10 @@
 package com.example.itravel;
 
+<<<<<<< Updated upstream
 import androidx.appcompat.app.AppCompatActivity;
 
+=======
+>>>>>>> Stashed changes
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -10,7 +13,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+<<<<<<< Updated upstream
 import android.util.Base64;
+=======
+>>>>>>> Stashed changes
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,6 +25,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+<<<<<<< Updated upstream
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+>>>>>>> Stashed changes
 import com.basgeekball.awesomevalidation.AwesomeValidation;
 import com.basgeekball.awesomevalidation.ValidationStyle;
 import com.basgeekball.awesomevalidation.utility.RegexTemplate;
@@ -28,10 +39,13 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+<<<<<<< Updated upstream
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+=======
+>>>>>>> Stashed changes
 
 public class Update extends AppCompatActivity {
     Spinner catup;
@@ -48,7 +62,11 @@ public class Update extends AppCompatActivity {
     AwesomeValidation awesomeValidation;
 
     TextView restname;
+<<<<<<< Updated upstream
     FirebaseDatabase firebaseDatabase=FirebaseDatabase.getInstance();
+=======
+    FirebaseDatabase firebaseDatabase= FirebaseDatabase.getInstance();
+>>>>>>> Stashed changes
     DatabaseReference reference;
 
 
@@ -74,6 +92,7 @@ public class Update extends AppCompatActivity {
 
         //Add Validation For Name
 
+<<<<<<< Updated upstream
         awesomeValidation.addValidation(this,R.id.reUp,
                 RegexTemplate.NOT_EMPTY,R.string.invalid_name);
 
@@ -83,6 +102,17 @@ public class Update extends AppCompatActivity {
 
         awesomeValidation.addValidation(this,R.id.ofUp,
                 RegexTemplate.NOT_EMPTY,R.string.invalid_offer);
+=======
+        awesomeValidation.addValidation(this, R.id.reUp,
+                RegexTemplate.NOT_EMPTY, R.string.invalid_name);
+
+
+        awesomeValidation.addValidation(this, R.id.DiUptxt,
+                RegexTemplate.NOT_EMPTY, R.string.invalid_dis);
+
+        awesomeValidation.addValidation(this, R.id.ofUp,
+                RegexTemplate.NOT_EMPTY, R.string.invalid_offer);
+>>>>>>> Stashed changes
 
 
         btn_add_attachment_.setOnClickListener(new View.OnClickListener() {
@@ -91,7 +121,11 @@ public class Update extends AppCompatActivity {
                 base64_encode_image_=null;
                 Intent i = new Intent(
                         Intent.ACTION_PICK,
+<<<<<<< Updated upstream
                         android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+=======
+                        MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+>>>>>>> Stashed changes
                 startActivityForResult(i, RESULT_LOAD_IMAGE_);
             }
         });

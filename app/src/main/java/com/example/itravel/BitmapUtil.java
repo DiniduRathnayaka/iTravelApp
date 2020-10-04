@@ -1,6 +1,7 @@
 package com.example.itravel;
 
 import android.graphics.Bitmap;
+<<<<<<< Updated upstream
 import android.os.Environment;
 import android.util.Base64;
 import android.util.Log;
@@ -12,6 +13,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+=======
+import android.util.Base64;
+
+import java.io.ByteArrayOutputStream;
+>>>>>>> Stashed changes
 
 public class BitmapUtil {
 
