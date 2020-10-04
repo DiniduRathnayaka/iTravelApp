@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">iTravel</string>
+    <string name="addoff">ADD OFFER</string>
+    <string name="cat">Category</string>
+    <string-array name="spinner">
+        <item>Premium</item>
+        <item>Gold</item>
+        <item>Basic </item>
+    </string-array>
+
+    <string name="RestName">Restaurent Name</string>
+    <string name="Nameres">Name Restaurent</string>
+    <string name="offName">Offer Name</string>
+    <string name="nameof">Name of the offer</string>
+    <string name="desc">Description</string>
+    <string name="desText">Description</string>
+    <string name="addOffer">Add Offer</string>
+    <string name="DeleteOffer">DELETE OFFER</string>
+    <string name="catdel">Category</string>
+    <string name="resDel">Resturent Name</string>
+    <string name="offNamDel">Offer Name</string>
+    <string name="decsDel">Description</string>
+    <string-array name="catDroupAdd">Category
+        <item>Premium</item>
+        <item>Gold</item>
+        <item>Basic </item>
+    </string-array>
+
+
+    <string name="NameReDel">Name restaurent</string>
+    <string name="nameoffDel">Name of the offer</string>
+    <string name="desDelTxt">Description</string>
+    <string name="DeleteOffer1">Delete Offer</string>
+    <string name="update">UPDATE OFFER</string>
+    <string name="catup">Category</string>
+    <string name="ResUp">Resturent Name</string>
+    <string name="offNameUp">Offer Name</string>
+    <string name="desUp">Description</string>
+    <string-array name="catDroupUp">Category
+        <item>Premium</item>
+        <item>Gold</item>
+        <item>Basic </item>
+    </string-array>
+
+    <string name="ResUpTxt">Name restaurent</string>
+    <string name="NameOffTxt">Name of the offer</string>
+    <string name="deUpTxt">Description</string>
+    <string name="UpdateOffer">Update Offer</string>
+    <string name="Hotel">HOTELS LIST</string>
+    <string name="h1">Hotel details</string>
+    <string name="h2">Hotel details</string>
+    <string name="h3">Hotel details</string>
+    <string name="h4">Hotel details</string>
+    <string name="TraHead">Transfers</string>
+    <string name="date">Date</string>
+    <string name="Morede">More Details</string>
+    <string name="dAte">Date</string>
+    <string name="DatE">Date</string>
+    <string name="MorDet">More Details</string>
+    <string name="app_name_lo">Locations</string>
+    <string name="NL">Name of the Location</string>
+    <string name="Des">Description</string>
+    <string name="VF">View Feedback</string>
+    <string name="AF">Add a Feedback</string>
+    <string name="RL">Rate the Location!</string>
+    <string name="Msg">Message</string>
+    <string name="UYF">Upload Your Favourite!</string>
+    <string name="Sub">SUBMIT</string>
+    <string name="MF">My Feedbacks</string>
+    <string name="UF">Update Feedback</string>
+    <string name="UFbtn">Update Feedback!</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_offer">Please Enter Valid Offer</string>
+    <string name="invalid_dis">Please Enter Valid Description</string>
+    <string name="invalid_img">Please Enter Valid Image</string>
+    <string name="invalid_imge">Please Enter Image</string>
+
+</resources>

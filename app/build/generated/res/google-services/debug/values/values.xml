@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">695353391479-cho2ul1uumc8vldthmo9k29iggt4hnn1.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://itravel-76a36.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">695353391479</string>
+    <string name="google_api_key" translatable="false">AIzaSyC_7dLhE_IDe_LCPg-tCLIuBbleMj6y9OM</string>
+    <string name="google_app_id" translatable="false">1:695353391479:android:890bd8a097e781cc458972</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC_7dLhE_IDe_LCPg-tCLIuBbleMj6y9OM</string>
+    <string name="google_storage_bucket" translatable="false">itravel-76a36.appspot.com</string>
+    <string name="project_id" translatable="false">itravel-76a36</string>
+</resources>
