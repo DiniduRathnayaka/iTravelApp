@@ -15,7 +15,7 @@
     <item
         android:id="@+id/menu_favourites"
         android:icon="@drawable/ic_baseline_favorite_24"
-        android:title="Favourites" />
+        android:title="Offers" />
     <group>
         <item
             android:id="@+id/menu_aboutus"

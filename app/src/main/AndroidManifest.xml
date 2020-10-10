@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.itravel">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,18 +25,26 @@
         <activity android:name="com.example.profile_upgrade.profile_upgrade_main_pre_pay_method" />
         <activity android:name="com.example.profile_upgrade.profile_upgrade_main_success" />
         <activity android:name="com.example.profile_upgrade.Viewpaymentlogs" />
-        <activity android:name=".RestaurentOffers.AddOffers" />
-        <activity android:name=".RestaurentOffers.DeleteOffers" />
         <activity android:name="com.example.Home.dashboard" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".RestaurentOffers.UpdateOffers" />
-        <activity android:name=".RestaurentOffers.Hotels" />
-        <activity
-            android:name="com.example.profile_upgrade.Intro_Page">
+        <activity android:name=".Firstuser"></activity>
+        <activity android:name=".Update" />
+        <activity android:name=".Hotels" />
+        <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.example.profile_upgrade.Intro_Page">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN"/>-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
     </application>
+
 
 </manifest>
