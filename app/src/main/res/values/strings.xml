@@ -75,9 +75,9 @@
     <string name="h2">Hotel details</string>
     <string name="h3">Hotel details</string>
     <string name="h4">Hotel details</string>
-    <string name="TraHead">Last Payment</string>
+    <string name="TraHead">Transfers</string>
     <string name="date">Date</string>
-    <string name="Morede">Change Card</string>
+    <string name="Morede">More Details</string>
     <string name="dAte">Date</string>
     <string name="DatE">Date</string>
     <string name="MorDet">More Details</string>
@@ -93,6 +93,11 @@
     <string name="MF">My Feedbacks</string>
     <string name="UF">Update Feedback</string>
     <string name="UFbtn">Update Feedback!</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_offer">Please Enter Valid Offer</string>
+    <string name="invalid_dis">Please Enter Valid Description</string>
+    <string name="invalid_img">Please Enter Valid Image</string>
+    <string name="invalid_imge">Please Enter Image</string>
 
     <!--Dinindu End -->
 

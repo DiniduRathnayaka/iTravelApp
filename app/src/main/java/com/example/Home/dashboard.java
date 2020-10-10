@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.example.itravel.MainActivity;
 import com.example.itravel.R;
 import com.example.profile_upgrade.Viewpaymentlogs;
 import com.example.profile_upgrade.profile_upgrade_main;
@@ -112,7 +113,9 @@ public class dashboard extends AppCompatActivity implements OnNavigationItemSele
             Toast.makeText(this, "Loading Hotels", Toast.LENGTH_SHORT).show();
         }
         else if (item.getItemId() == R.id.menu_favourites ){
-            Toast.makeText(this, "Loading Favourites", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Loading Offers", Toast.LENGTH_SHORT).show();
+            Intent m = new Intent(dashboard.this, MainActivity.class);
+            startActivity(m);
         }
         else if (item.getItemId() == R.id.menu_aboutus ){
             Toast.makeText(this, "Loading About Us", Toast.LENGTH_SHORT).show();
